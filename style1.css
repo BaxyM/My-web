@@ -1,0 +1,188 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 50px 50px 0 50px;
+    background-color: #001C30;
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh;
+}
+
+.main {
+    flex: 1;
+    display: block;
+}
+
+h1 {
+    font-size: 5rem;
+    color: #DAFFFB;
+    display: block;
+    text-align: center;
+    height: 200px;
+    padding: 30px;
+    background-color: #176B87;
+    border-radius: 50px;
+}
+
+.left > .card-title {
+    color: #64CCC5;
+    display: block;
+    text-align: center;
+    background-color: #176B87;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-end-start-radius: 100px;
+    width: 150px;
+    height: 40px;
+}
+
+.right >.card-title {
+    color: #64CCC5;
+    display: block;
+    text-align: center;
+    background-color: #176B87;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-end-start-radius: 100px;
+    width: 200px;
+    height: 40px;
+}
+
+.card {
+    width: 45%;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+p {
+    color: #DAFFFB
+}
+
+footer {
+    font-size: 50px;
+    text-align: right;
+    color: #64CCC5;
+}
+
+span {
+    color: #001c30;
+}
+
+@media (min-width: 480px){
+    body{
+      background-color: #164B60;
+    }
+
+    .title-img {
+        size: 600px;
+        height: 600px;
+    }
+
+    .card {
+        width: 100%;
+        display: block;
+        margin-bottom: 30px;
+        text-align: justify;
+    }
+
+    .card img {
+        margin-bottom: 10px;
+        width: 100%;
+        display: inline;
+        object-fit: cover;
+    }
+
+    .logo {
+        width: 100px;
+    }
+
+    h1 {
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+}
+
+@media (min-width: 1200px){
+    body{
+      background-color: #E966A0;
+    }
+
+    .card {
+        width: 100%;
+        display: block;
+        margin-bottom: 30px;
+        text-align: justify;
+    }
+
+    .card img {
+        margin-bottom: 10px;
+        width: 100%;
+        display: inline;
+        object-fit: cover;
+    }
+
+    .logo {
+        width: 100px;
+    }
+
+}
+
+@media (min-width: 1500px){
+    body{
+      background-color: #A0C49D;
+    }
+
+    .card {
+        width: 100%;
+        display: block;
+        margin-bottom: 30px;
+        text-align: justify;
+    }
+
+    .card img {
+        margin-bottom: 10px;
+        width: 100%;
+        display: inline;
+        object-fit: cover;
+    }
+
+    .logo {
+        width: 100px;
+    }
+
+}
+
+@media (min-width: 1600px){
+    body{
+      background-color: #F2EAD3;
+    }
+
+    .card {
+        width: 100%;
+        display: block;
+        margin-bottom: 30px;
+        text-align: justify;
+    }
+
+    .card img {
+        margin-bottom: 10px;
+        width: 100%;
+        display: inline;
+        object-fit: cover;
+    }
+
+    .logo {
+        width: 100px;
+    }
+
+    p {
+        color: #3F2305;
+    }
+
+}
